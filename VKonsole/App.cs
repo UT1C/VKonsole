@@ -5,7 +5,7 @@ namespace VKonsole
 {
     class App
     {
-        private Toplevel top;
+        Toplevel top;
 
         public App()
         {
@@ -13,6 +13,9 @@ namespace VKonsole
             this.top = Application.Top;
         }
 
-        public void run() {Application.Run();}
+        public void run()
+        {
+            Application.Run();
+        }
     }
 }
