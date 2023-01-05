@@ -8,6 +8,7 @@ namespace VKonsole
         {
             VkApi api = new VkApi();
             App app = new App();
+
             app.Run();
         }
     }
